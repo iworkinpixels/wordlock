@@ -1,6 +1,3 @@
-import enchant
-
-d = enchant.Dict("en_US")
 f = open("thousand-most-common-english-words.txt", "r")
 
 def process_word(word):
